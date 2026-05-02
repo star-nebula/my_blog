@@ -2,8 +2,8 @@
 layout: home
 sidebar: false
 
-title: Nólëbase
-titleTemplate: 记录回忆，知识和畅想的地方
+title: star-nebula
+titleTemplate: 个人的知识海洋
 
 hero:
   name: g~Nj$3J2^
@@ -37,5 +37,4 @@ features:
     details: 强大的知识库管理工具，支持花样繁多的插件和拓展，让知识管理变得更加简单。
     icon: 🗃
 ---
-
 <HomePage />
