@@ -12,6 +12,9 @@ import head from './head'
 const nolebase = presetMarkdownIt()
 
 export default defineConfig({
+  redirects: [
+    { from: '/', to: '/zh-CN/' },
+  ],
   vue: {
     template: {
       transformAssetUrls: {
@@ -100,7 +103,7 @@ export default defineConfig({
     root: {
       lang: 'zh-CN',
       label: '中文',
-      dir: '/zh-CN',
+      dir: 'zh-CN',
       link: '/zh-CN',
       themeConfig: {
         nav: [
