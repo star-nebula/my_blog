@@ -6,6 +6,11 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: write    # 允许 Actions 写入代码（比如 push 到 gh-pages）
+  pages: write
+  id-token: write
+
 env:
   STORE_PATH: ''
 
